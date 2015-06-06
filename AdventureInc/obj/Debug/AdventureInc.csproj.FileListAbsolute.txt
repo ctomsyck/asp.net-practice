@@ -1,0 +1,6 @@
+C:\Repos\AdventureInc\AdventureInc\bin\AdventureInc.dll.config
+C:\Repos\AdventureInc\AdventureInc\bin\AdventureInc.dll
+C:\Repos\AdventureInc\AdventureInc\bin\AdventureInc.pdb
+C:\Repos\AdventureInc\AdventureInc\obj\Debug\AdventureInc.csprojResolveAssemblyReference.cache
+C:\Repos\AdventureInc\AdventureInc\obj\Debug\AdventureInc.dll
+C:\Repos\AdventureInc\AdventureInc\obj\Debug\AdventureInc.pdb
