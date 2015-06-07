@@ -5,55 +5,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <link href="../CSS/StyleSheet1.css" rel="stylesheet" />
-    <title>Registration</title>
+    <title>Christopher Tomsyck</title>
 </head>
 <body>
 
     <form id="form1" runat="server">
-        <div id="Header">
-            <p style="text-align: center">Welcome</p>
-        </div>
-
-        <div id="wrapper">
-            <div id="Registration">
-                <asp:Table ID="RegistrationTable" runat="server" Width="100%">
-                    <asp:TableRow>
-                        <asp:TableCell HorizontalAlign="Right">Name:</asp:TableCell>
-                        <asp:TableCell>
-                            <asp:TextBox runat="server" ID="TextBoxName"></asp:TextBox></asp:TableCell>
-                    </asp:TableRow>
-                    <asp:TableRow>
-                        <asp:TableCell HorizontalAlign="Right">Address:</asp:TableCell>
-                        <asp:TableCell>
-                            <asp:TextBox runat="server" ID="TextBoxAddress"></asp:TextBox></asp:TableCell>
-                    </asp:TableRow>
-                    <asp:TableRow>
-                        <asp:TableCell HorizontalAlign="Right">State:</asp:TableCell>
-                        <asp:TableCell>
-                            <asp:TextBox runat="server" ID="TextBoxState"></asp:TextBox></asp:TableCell>
-                    </asp:TableRow>
-                    <asp:TableRow>
-                        <asp:TableCell HorizontalAlign="Right">Zip:</asp:TableCell>
-                        <asp:TableCell>
-                            <asp:TextBox runat="server" ID="TextBoxZip"></asp:TextBox></asp:TableCell>
-                    </asp:TableRow>
-                    <asp:TableRow>
-                        <asp:TableCell HorizontalAlign="Right">Phone:</asp:TableCell>
-                        <asp:TableCell>
-                            <asp:TextBox runat="server" ID="TextBoxPhone"></asp:TextBox></asp:TableCell>
-                    </asp:TableRow>
-                    <asp:TableRow>
-                        <asp:TableCell HorizontalAlign="Right">Email:</asp:TableCell>
-                        <asp:TableCell>
-                            <asp:TextBox runat="server" ID="TextBoxEmail"></asp:TextBox></asp:TableCell>
-                    </asp:TableRow>
-                </asp:Table>
+        <div id="Header"><h1>Welcome to my ASP.NET and Microsoft SQL server practice website</h1></div>
+        <div id="Wrapper">
+            <div id="LeftColumn"><a href="Default.aspx">Home</a></div>
+            <div id="RightColumn">This website was setup to practice ASP.NET with Microsoft SQL Server Management.<br/>
+                I will be using the Adventure Works database provided by Microsoft to practice queries and create stored procedures.<br/>
+                These procedures will then produce an excel file or display the result in a grid.
             </div>
-
-            <div id="Main">
-                <p style="text-align: center">Test</p>
             </div>
-        </div>
+        <div id="Footer">Copyright © ChrisTomsyck.com</div>
     </form>
+
 </body>
 </html>

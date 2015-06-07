@@ -1,20 +1,48 @@
-﻿body {
+﻿
+#body {
 }
 
-header {
+#Header {
+    background-color: #3366FF;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
 
-wrapper {
+#Wrapper {
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+    height: 700px;
 }
 
-Registration, Main {
+#LeftColumn {
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #878787;
+    width: 200px;
+    font-size:large;
 }
 
-Registration {
+#RightColumn {
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 200px;
+    background-color: #eeeeee;
+    font-size:large;
 }
 
-RegistrationTable {
-}
-
-main {
+#Footer {
+    background-color: #3366FF;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
 }
